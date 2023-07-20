@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Work+Sans:wght@400;500;700;800;900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding-top: 45px;
+    padding-left: 240px;
+    padding-bottom: 45px;
+}
+
+.logo-img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.logo-container .logo-title {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.g {
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.item-content {
+    justify-content: space-between;
+    padding-top: 54px;
+    padding-bottom: 55px;
+    padding-right: 240px;
+}
+
+.item-content a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 32px;
+}
+
+.follow-btn {
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 17px 24px 18px 24px;
+}
+
+.fa-youtube {
+    color: red;
+    padding: 16px;
+    width: 33.916px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.fa-tiktok {
+    color: black;
+    padding: 16px;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-content {
+    background-image: url("Group\ 14.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 50%;
+}
+
+.banner-title-1 {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-top: 148px;
+}
+
+.banner-title-2 {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 24px;
+    padding-left: 276px;
+    text-align: left;
+}
+
+.banner-btn-1 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+    margin-top: 41px;
+    margin-bottom: 148px;
+}
+
+.banner-btn-2 {
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 48px;
+    background: #4EC5F7;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: 0;
+}
+
+.banner-container {
+    padding: 19px 240px 19px 68px;
+    width: normal;
+}
+
+
+
+.online-games {}
+
+.online-games-content {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 48px;
+}
+
+.online-games-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.title-color-1 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.online-games-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.online-games-container-card {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1440px;
+    gap: 24px;
+    margin: 50px auto;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    width: 342px;
+    height: 400px;
+    flex-shrink: 0;
+}
+
+.card-description {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 24px;
+}
+
+.play {
+    display: flex;
+}
+
+.play-container {}
+
+.play-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    padding: 336px 120px 24px 439px;
+}
+
+.play-description {
+    width: 353px;
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 24px;
+    margin-left: 427px;
+    padding-bottom: 336px;
+}
+
+.play-img {
+    padding-top: 120px;
+    padding-right: 240px;
+    padding-left: 120px;
+    padding-bottom: 196px;
+    position: relative;
+}
+
+.play-img-1 {
+    width: normal;
+    top: 0;
+    left: 0;
+}
+
+.play-img-2 {
+    width: normal;
+    position: absolute;
+    bottom: 150px;
+    left: -20px;
+}
+
+.games-catagory {
+    max-width: 1440px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.catagory-btn {
+    margin: 0 auto;
+    width: 250px;
+    border-radius: 50px;
+    background-color: #ffffff;
+    color: #0B0223;
+    padding: 10PX 20PX;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.catagory-btn:hover {
+    background-color: #FF42A5;
+}
+
+.catagory-btn .p {
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.footer-container {
+    background-color: #0B0223;
+    color: #ffffff;
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 120px;
+}
+
+.footer-title .logo-title {
+    padding-left: 20px;
+}
+
+.footer-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 60px;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.footer-description ul {
+    display: flex;
+    margin: 0 auto;
+}
+
+.footer-description li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+}
+
+.social-media {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.social-media .fa-brands {
+    padding: 0px 40px;
+}
+
+.copyright {
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 130px;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .logo-container {
+        padding: 10px 0px;
+    }
+
+    .item-content {
+        padding-right: 0px;
+        margin: 0 auto;
+    }
+
+    .item-content a {
+        margin-right: 15px;
+    }
+
+    .fa-youtube {
+        padding: 0px;
+    }
+
+    .fa-youtube {
+        padding: 0px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-container {
+        padding: 19px 0px 19px 0px;
+    }
+
+    .banner-container img {
+        padding: 19px 0px 19px 35px;
+        height: 500px;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-description {
+        padding-left: 120px;
+    }
+
+    .online-games-container-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 200px;
+    }
+
+    .online-games-description {
+        padding-top: 30px;
+    }
+
+    .play {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+
+    .play-title {
+        padding: 100px 100px 50px;
+    }
+
+    .play-description {
+        margin: 0px 0px 0px 80px;
+        padding-bottom: 0px;
+    }
+
+    .play-img {
+        right: -5%;
+        padding-top: 50px;
+        padding-right: 250px;
+        padding-left: 110px;
+    }
+
+    .play-img-1 {
+        max-width: 180%;
+    }
+
+    .play-img-2 {
+        max-height: 300px;
+        top: 50%;
+        left: 0px;
+    }
+
+    .games-catagory {
+        padding: 50px 0px;
+    }
+
+    .catagory-btn {
+        width: 150px;
+    }
+
+    .footer-title {
+        padding-top: 50px;
+    }
+
+    .footer-description {
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+
+    .copyright {
+        padding-bottom: 50px;
+    }
+
+
+
+
+
+
+}
