@@ -466,10 +466,118 @@
     .copyright {
         padding-bottom: 50px;
     }
+}
 
 
 
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav {
+        text-align: center;
+        margin: 0 auto;
+    }
 
+    .logo-container {
+        padding: 10px 0px;
+    }
 
+    .item-content {
+        padding-right: 0px;
+        margin: 0 auto;
+    }
 
+    .item-content a {
+        margin-right: 15px;
+    }
+
+    .fa-youtube {
+        padding: 0px;
+    }
+
+    .fa-youtube {
+        padding: 0px;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+    }
+
+    .banner-container {
+        padding: 19px 0px 19px 0px;
+    }
+
+    .banner-container img {
+        padding: 19px 240px;
+        height: 500px;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-description {
+        padding-right: 140px;
+        margin-left: 40px;
+    }
+
+    .online-games-container-card {
+        flex-direction: column;
+        align-items: center;
+        gap: 200px;
+    }
+
+    .online-games-description {
+        padding-top: 30px;
+    }
+
+    .play {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .play-title {
+        padding: 100px 100px 50px;
+    }
+
+    .play-description {
+        margin: 0px 0px 0px 80px;
+        padding-bottom: 0px;
+    }
+
+    .play-img {
+        right: -5%;
+        padding-top: 50px;
+        padding-right: 250px;
+        padding-left: 110px;
+    }
+
+    .play-img-1 {
+        max-width: 180%;
+    }
+
+    .play-img-2 {
+        max-height: 300px;
+        top: 50%;
+        left: 0px;
+    }
+
+    .games-catagory {
+        padding: 0px 0px 130px 0px;
+    }
+
+    .catagory-btn {
+        width: 150px;
+    }
+
+    .footer-title {
+        padding-top: 50px;
+    }
+
+    .footer-description {
+        padding-left: 30px;
+        padding-right: 5px;
+    }
+
+    .copyright {
+        padding-bottom: 50px;
+    }
 }
